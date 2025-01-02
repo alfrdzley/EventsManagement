@@ -31,6 +31,7 @@ python manage.py runserver
 7. Use HTTP <method> to test the API
 ```bash
 http GET http://127.0.0.1:8000/events/ # Get all events
+http POST http://127.0.0.1:800/events/register # Hanya menerima method POST
 http GET http://127.0.0.1:8000/events/statistics/ # Get statistics
 
 ```
